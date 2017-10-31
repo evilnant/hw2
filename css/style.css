@@ -1,66 +1,80 @@
-*{
+* {
     font-family: 'Roboto', sans-serif;
 }
+
 .wrapper {
-    max-width: 1200px;
+    max-width: 1170px;
     /* text-align: center; */
     margin: 0 auto;
     /* border: 2px solid; */
     position: relative;
 }
+
 .group:after {
     content: "";
     display: table;
     clear: both;
 }
+
 .logo {
     float: left;
     /* border: 2px solid; */
 }
-.head{
+
+.head {
     margin-top: 15px;
 }
+
 img {
     height: 65px;
 }
+
 nav {
     float: left;
     /* border: 2px solid; */
     margin-left: 30px;
 }
+
 nav li {
     list-style: none;
     float: left;
     /* margin: 0 8px; */
 }
+
 nav a {
     line-height: 73px;
 }
+
 nav ul {
     padding: 0;
     margin: 0;
 }
+
 .phon {
     float: right;
     /* border: 2px solid; */
     /* height: 50px; */
 }
-.head a{
+
+.head a {
     text-decoration: none;
     color: black;
     font-weight: bold;
     padding: 10px;
 }
-.head a:hover{
+
+.head a:hover {
     background-color: rgba(164, 172, 223, 0.13);
     border-radius: 5px;
 }
-.phone{
+
+.phone {
     color: rgb(94, 54, 94);
     font-weight: bold;
     font-size: 20px;
 }
-.call{
+
+.call {
     padding: 10px;
     color: rgb(94, 54, 94);
     margin-top: 8px;
@@ -69,35 +83,41 @@ nav ul {
     border: 2px solid rgb(94, 54, 94);
     border-radius: 5px;
 }
-.call:hover{
+
+.call:hover {
     cursor: pointer;
     color: black;
     border: 2px solid rgb(235, 195, 19);
 }
-.first{
+
+.first {
     background: url(../img/bac.png) no-repeat;
     background-size: cover;
     position: relative;
     min-height: 638px;
 }
-.first__text{
+
+.first__text {
     text-align: center;
     background: url(../img/cloud.png) no-repeat;
     padding: 90px;
-    background-position:40px 50px;
+    background-position: 40px 50px;
     background-size: 95%;
     color: rgb(85, 41, 85);
 }
-.first h1{
+
+.first h1 {
     font-size: 45px;
     margin: 12px 0 5px 0;
 }
-.first h2{
+
+.first h2 {
     margin: 0 0;
     margin-left: px;
     font-weight: normal;
 }
-.write{
+
+.write {
     background: url(../img/purpl.png) no-repeat center;
     padding: 100px;
     text-align: center;
@@ -106,7 +126,8 @@ nav ul {
     margin-left: -449px;
     top: 330px;
 }
-.rnd{
+
+.rnd {
     width: 155px;
     height: 50px;
     border-radius: 5px;
@@ -115,8 +136,9 @@ nav ul {
     padding: 0 25px;
     margin-right: 5px;
 }
-.btm{
-    width:270px;
+
+.btm {
+    width: 270px;
     height: 50px;
     border-radius: 5px;
     border: none;
@@ -125,76 +147,107 @@ nav ul {
     color: white;
     font-weight: bold;
 }
-.second{
+
+.second {
     height: 366px;
     position: relative;
     text-align: center;
 }
-.writeSecond{
+
+.writeSecond {
     margin-top: -20px;
     margin-bottom: 20px;
     color: white;
 }
-.writeThree{
+
+.writeThree {
     margin-top: 40px;
     color: rgb(141, 38, 141);
     font-size: 16px;
     font-weight: normal;
 }
-.writeFirst{
+
+.writeFirst {
     font-size: 28px;
     color: white;
 }
-.inp{
+
+.inp {
     /* margin-top: 40px; */
 }
-.second li{
-    list-style: none;
-    margin: 35px;
-    display:inline;
+
+.second wrapper{
+    
 }
+
+.second li {
+    list-style: none;
+    margin: 15px;
+    display: inline;
+}
+
 .second ul {
-/*    text-align: center;*/
+    /*    text-align: center;*/
     padding-left: 0;
 }
-.i1{
+.table{
+    position: relative;
+}
+.circ {
+    background: url(../img/round.png)no-repeat;
+    float: left;
+    width: 147px;
+    height: 146px;
+    margin-left: 48px;
+    font-size: 16px;
+    padding-top: 53px;
+    padding-left: 5px;
+       
+}
+
+.i1 {
     position: relative;
     top: 195px;
+    margin-left: 9px;
+    padding-top: 65px;
 }
-.circ{
-    background: url(../img/);
-    padding: 50px 55px;
-    border-radius: 50%;
-    background: red;
-}
-.i2{
+
+.i2 {
     position: relative;
     top: 127px;
 }
-.i3{
+
+.i3 {
     position: relative;
     top: 75px;
 }
-.i4{
+
+.i4 {
     position: relative;
     top: 75px;
+    padding-top: 45px;
 }
-.i5{
+
+.i5 {
     position: relative;
     top: 127px;
+    padding-top: 45px;
 }
-.i6{
+
+.i6 {
     position: relative;
     top: 195px;
+    padding-top: 45px;
 }
-.three{
+
+.three {
     background: url(../img/back2.png);
     height: 208px;
     position: relative;
     text-align: center;
-    
 }
-.fing{
+
+.fing {
     background: url(../img/fing.png);
     width: 142px;
     height: 123px;
@@ -203,14 +256,66 @@ nav ul {
     margin-left: -71px;
     top: 123px;
 }
-.three h3{
+
+.three h3 {
     padding-top: 30px;
     font-size: 30px;
     color: white;
     margin: 0;
 }
-.three p{
+
+.three p {
     font-size: 18px;
     color: white;
     font-weight: lighter;
+}
+.position{
+    text-align: center;
+    margin-top: 91px;
+    min-height: 667px;
+}
+.items{
+    margin-left: 40px;
+    
+    
+    
+}
+.item1 img{
+    width: 369px;
+    height: 279px;
+    display: block;
+    
+}
+.item2 img{
+    width: 368px;
+    height: 271px;
+    display: block;
+    
+}
+.item3 img{
+    width: 370px;
+    height: 278px;
+    display: block;
+    
+}
+.position h2{
+    font-size: 37px;
+    margin-bottom:14px; 
+}
+.position p{
+    font-size: 20px;
+    margin-top: 0;
+    font-weight: lighter;
+}
+.textitem{
+    display:inline-block;
+}
+.item1{
+    float: left;
+}
+.item2{
+    float: left;
+}
+.item3{
+    float: left;
 }
